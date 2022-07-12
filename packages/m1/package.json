@@ -21,7 +21,7 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "kulem2": "*"
+    "kulem2": "^0.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
