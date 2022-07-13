@@ -15,7 +15,9 @@
   "scripts": {
     "test": "jest",
     "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "lint": "eslint \"src/**/*.{ts,js,json}\"",
+    "lint:fix": "eslint \"src/**/*.{ts,js,json}\" --fix"
   },
   "author": {
     "name": "KULE"
