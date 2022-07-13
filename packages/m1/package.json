@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c"
+    "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "author": {
     "name": "KULE"
