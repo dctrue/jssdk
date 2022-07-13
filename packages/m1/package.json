@@ -10,14 +10,16 @@
     "dist",
     "lib",
     "es",
-    "types"
+    "types",
+    "docs"
   ],
   "scripts": {
-    "test": "jest",
     "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run doc && npm run lint && npm run test && npm run build",
     "lint": "eslint \"src/**/*.{ts,js,json}\"",
-    "lint:fix": "eslint \"src/**/*.{ts,js,json}\" --fix"
+    "lint:fix": "eslint \"src/**/*.{ts,js,json}\" --fix",
+    "test": "jest",
+    "doc": "typedoc src/index.ts"
   },
   "author": {
     "name": "KULE"
@@ -39,6 +41,8 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.32.1",
+    "typedoc": "^0.23.7",
+    "typedoc-plugin-markdown": "^3.13.3",
     "typescript": "^4.7.4"
   }
 }

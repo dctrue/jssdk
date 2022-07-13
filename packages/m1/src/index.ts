@@ -1,6 +1,15 @@
 import { m2 } from 'kulem2'
 
-export const kulem1 = () => {
+/**
+ * ddd
+ *
+ * @example
+ * ```js
+ * kulem1()
+ * ```
+ * @param v - paa
+ */
+export const kulem1 = (v: string) => {
   m2()
-  console.log('kulem1 runing222')
+  console.log('kulem1 runing222', v)
 }
