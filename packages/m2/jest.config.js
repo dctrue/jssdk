@@ -21,7 +21,7 @@ const options = {
     '^@/(.*)$': '<rootDir>/$1'
   },
   preset: 'ts-jest',
-  resolver: 'ts-jest-resolver',
-};
+  resolver: 'ts-jest-resolver'
+}
 
-module.exports = options;
+module.exports = options
