@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c",
-    "prepublishOnly": "npm run doc && npm run lint && npm run test && npm run build",
+    "prepublishOnly": "npm run doc && npm run lint && npm run build",
     "lint": "eslint \"src/**/*.{ts,js,json}\"",
     "lint:fix": "eslint \"src/**/*.{ts,js,json}\" --fix",
     "test": "jest",
@@ -45,5 +45,5 @@
     "typedoc-plugin-markdown": "^3.13.3",
     "typescript": "^4.7.4"
   },
-  "gitHead": "9045014b38ddf8dd675cf31550ecd522a5d8e51a"
+  "gitHead": "067c9fe3dfc587dee99fa54505f524f6b7142a55"
 }
