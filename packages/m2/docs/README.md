@@ -14,6 +14,14 @@ DOC
 
 ▸ **m2**(): `void`
 
+ccc
+
+**`Example`**
+
+```js
+m2()
+```
+
 #### Returns
 
 `void`
