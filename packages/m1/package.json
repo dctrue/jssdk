@@ -1,7 +1,7 @@
 {
   "name": "kulem1",
   "code": "kulem1",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "lib/index.min.js",
   "module": "es/index.min.js",
@@ -26,7 +26,7 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "kulem2": "^0.1.4"
+    "kulem2": "^0.1.5"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
