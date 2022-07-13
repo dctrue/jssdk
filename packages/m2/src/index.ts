@@ -1,5 +1,5 @@
 /**
- * ccc
+ * cccc
  *
  * @example
  * ```js
@@ -8,5 +8,5 @@
  */
 
 export const m2 = () => {
-  console.log('m2 runing1222')
+  console.log('m2 runing1333')
 }
