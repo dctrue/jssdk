@@ -1,7 +1,7 @@
 {
   "name": "kulem2",
   "code": "kulem2",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "lib/index.min.js",
   "module": "es/index.min.js",
