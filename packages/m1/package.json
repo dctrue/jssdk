@@ -15,11 +15,11 @@
   ],
   "scripts": {
     "build": "rimraf es/** && rimraf lib/** && rimraf dist/** rimraf typings/** && rollup -c",
-    "prepublishOnly": "npm run lint && npm run test && npm run build",
+    "prepublishOnly": "npm run doc && npm run lint && npm run test && npm run build",
     "lint": "eslint \"src/**/*.{ts,js,json}\"",
     "lint:fix": "eslint \"src/**/*.{ts,js,json}\" --fix",
     "test": "jest",
-    "doc": "typedoc src/index.ts"
+    "doc": "rimraf docs && typedoc src/index.ts"
   },
   "author": {
     "name": "KULE"
