@@ -1,6 +1,12 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "build": "npx lerna run build",
+    "test": "npx lerna run test",
+    "publish": "npx lerna publish --no-private"
+  },
   "devDependencies": {
     "@types/jest": "^28.1.4",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
